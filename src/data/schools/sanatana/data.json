@@ -1,0 +1,763 @@
+{
+  "id": "sanatana-school-of-excellence",
+  "name": "Sanatana School of Excellence",
+  "shortName": "SANATANA",
+  "tagline": "Rooted in Values, Ready for Tomorrow",
+  "logoImage": "/sanatana.png",
+  "brandTheme": {
+    "concept": "Traditional Values × Modern Learning × Child-Centered Development",
+    "tone": "Warm, child-friendly, culturally rooted, premium, peaceful, modern",
+    "establishedYear": "2014"
+  },
+  "topBar": {
+    "location": "Maruthi Nagar, Anantapur, Andhra Pradesh",
+    "phone": "+91 95150 73726",
+    "email": "sanatanakids@gmail.com",
+    "parentPortalUrl": "#parent-corner",
+    "careersUrl": "#contact",
+    "socialLinks": {
+      "facebook": "https://facebook.com",
+      "instagram": "https://instagram.com",
+      "youtube": "https://youtube.com",
+      "linkedin": "https://linkedin.com"
+    }
+  },
+  "navigation": [
+    { "id": "home", "label": "Home", "href": "#home" },
+    { "id": "about", "label": "About", "href": "#about" },
+    { "id": "academics", "label": "Academics", "href": "#academics" },
+    { "id": "admissions", "label": "Admissions", "href": "#admissions" },
+    { "id": "beyond-classrooms", "label": "Beyond Classrooms", "href": "#beyond-classrooms" },
+    { "id": "facilities", "label": "Facilities", "href": "#facilities" },
+    { "id": "parent-corner", "label": "Parent Corner", "href": "#parent-corner" },
+    { "id": "contact", "label": "Contact", "href": "#contact" },
+    { "id": "enquire-now", "label": "Enquire Now", "href": "#admissions", "isButton": true }
+  ],
+  "hero": {
+    "eyebrow": "ROOTED IN VALUES. READY FOR TOMORROW.",
+    "headlineStart": "Nurturing\nConfident Minds\nfor a",
+    "headlineAccent": "Brighter World",
+    "description": "Where Timeless Values Meet Modern Learning. Sanatana School of Excellence combines traditional values, modern educational approaches, creativity and meaningful learning experiences to help every child realize their true potential.",
+    "primaryCtaText": "Explore Sanatana",
+    "secondaryCtaText": "Admissions Enquiry",
+    "image": "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1200&q=85",
+    "decorativeTopText": "Small\nLearners\nBig\nPossibilities",
+    "decorativeBottomPill": {
+      "title": "A Brighter Me",
+      "subtitle": "A Kinder World"
+    }
+  },
+  "highlights": [
+    {
+      "id": "h1",
+      "title": "Academic\nExcellence",
+      "iconName": "BookOpen",
+      "bgColor": "bg-amber-100/70",
+      "iconColor": "text-amber-800"
+    },
+    {
+      "id": "h2",
+      "title": "Values &\nCharacter",
+      "iconName": "Heart",
+      "bgColor": "bg-emerald-100/70",
+      "iconColor": "text-emerald-800"
+    },
+    {
+      "id": "h3",
+      "title": "Holistic\nDevelopment",
+      "iconName": "Users",
+      "bgColor": "bg-rose-100/70",
+      "iconColor": "text-rose-800"
+    },
+    {
+      "id": "h4",
+      "title": "Creative\nThinking",
+      "iconName": "Lightbulb",
+      "bgColor": "bg-orange-100/70",
+      "iconColor": "text-orange-800"
+    },
+    {
+      "id": "h5",
+      "title": "Safe & Supportive\nEnvironment",
+      "iconName": "ShieldCheck",
+      "bgColor": "bg-teal-100/70",
+      "iconColor": "text-teal-800"
+    },
+    {
+      "id": "h6",
+      "title": "Global\nPerspective",
+      "iconName": "Globe",
+      "bgColor": "bg-sky-100/70",
+      "iconColor": "text-sky-800"
+    }
+  ],
+  "about": {
+    "eyebrow": "ABOUT SANATANA",
+    "heading": "More Than a School,\nA Place to Belong",
+    "description": "Welcome to Sanatana School of Excellence. We combine techniques associated with Vedic culture with contemporary educational methodologies to prepare children for the future. Our learning environment is created to encourage exploration, creativity, curiosity and meaningful conversations with trained facilitators.",
+    "ctaText": "Know More About Us",
+    "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=85",
+    "videoBadgeText": "Explore Our Campus",
+    "handwrittenTag": "A Home\nAway From Home",
+    "strengths": [
+      { "id": "s1", "title": "Child-Centric Approach", "iconName": "Users", "bgColor": "bg-sky-100", "iconColor": "text-sky-700" },
+      { "id": "s2", "title": "Experienced Faculty", "iconName": "UserCheck", "bgColor": "bg-pink-100", "iconColor": "text-pink-700" },
+      { "id": "s3", "title": "Modern Infrastructure", "iconName": "Building2", "bgColor": "bg-cyan-100", "iconColor": "text-cyan-700" },
+      { "id": "s4", "title": "Focus on Values & Life Skills", "iconName": "Sprout", "bgColor": "bg-emerald-100", "iconColor": "text-emerald-700" },
+      { "id": "s5", "title": "Personalised Learning", "iconName": "Sparkles", "bgColor": "bg-purple-100", "iconColor": "text-purple-700" },
+      { "id": "s6", "title": "Strong Parent Partnership", "iconName": "HeartHandshake", "bgColor": "bg-amber-100", "iconColor": "text-amber-700" }
+    ],
+    "welcomeIntro": {
+      "badgeTitle": "Welcome To Santana School",
+      "paragraphs": [
+        "Sanātana – is a school for learning aimed at delivering education in its truest sense blending the great yesterday's techniques of our vedic culture and today's methodologies of modern education to prepare students for tomorrow.",
+        "We stand out by following a teaching philosophy still uncommon in the world - we put the child and her/his well-being in the centre.",
+        "We are not just a pre-school but a place where children are nurtured to be life-long learners and responsible citizens.",
+        "At Sanatana, we respect each child as unique individual, bubbling with limitless potential, curious and interested in their world around them. We acknowledge children as sophisticated thinkers and communicators, adopting numerous ways to share their thoughts and feelings. We embrace our role in providing a stress-free, secure and playful environment where learning is celebrated, curiosity enhanced and conversations with trained facilitators encouraged."
+      ]
+    },
+    "refreshingChange": {
+      "badgeTitle": "We are the refreshing change in education",
+      "description": "The most valuable investment that the parents can make in their life is the right selection of a preschool for the overall development of their child as this is the initial stage of learning. We take pride in saying we are not just a pre-school but a place where children are nurtured to be life-long learners and global citizens. Education at Santana is more than imparting knowledge; it's about encouraging children to do significant things with what they've learnt. At Sanatana, we respect children as unique individuals, innate with limitless potential, curious and interested in their world around them. We acknowledge children as sophisticated thinkers and communicators, adopting hundreds of languages to share their thoughts and feelings. We embrace our role in providing a safe, secure and stimulating environment, where curiosity can be celebrated, understanding enhanced, and reciprocal conversations with trained facilitators encouraged. The purpose of education at Sanatana is to transform the inborn capabilities into an actuality. The creative energies of children through dance, drama, music, art, printing, activities, games, sports, outings, celebrations, explorations, declaration contests etc find manifestation and help to develop their hidden talent. The expertise team at Santana is working day and night to keep pace with the rhythm of the fast changing time and changing environment by doing innovative research on curriculum designing, parenting guidelines, upholding innovations and being ever ready to give new inputs wherever necessary."
+    }
+  },
+  "whatSetsUsApart": {
+    "badgeTitle": "What Sets Us Apart",
+    "image": "/what_sets_us_apart.jpg",
+    "leftPoints": [
+      "Headed by a visionary leadership team.",
+      "Integrated preschool - childcare facility.",
+      "State-of-the art infrastructure.",
+      "Exclusive curriculum for childcare with age appropriate activities."
+    ],
+    "rightPoints": [
+      "Qualified and trained staff.",
+      "Concept based learning.",
+      "Stimulating environment with rich resources.",
+      "High quality standards.",
+      "Convenient timings for pick-up and drop off."
+    ]
+  },
+  "academicJourney": {
+    "eyebrow": "OUR ACADEMIC JOURNEY",
+    "heading": "Every Stage. A Stronger Tomorrow.",
+    "viewAllText": "View All Programmes",
+    "stages": [
+      {
+        "id": "kindergarten",
+        "title": "Kindergarten",
+        "subtitle": "(Pre-Primary)",
+        "grades": "Nursery, LKG, UKG",
+        "keywords": "Play • Explore • Grow",
+        "description": "A joyful start with a safe, nurturing and stimulating environment focused on sensory exploration, curiosity and foundational habits.",
+        "iconName": "Smile",
+        "bgColor": "bg-amber-50/60",
+        "borderColor": "border-amber-100",
+        "iconBgColor": "bg-amber-100",
+        "iconColor": "text-amber-800",
+        "linkText": "Learn More"
+      },
+      {
+        "id": "primary",
+        "title": "Primary School",
+        "subtitle": "(Grades 1–5)",
+        "grades": "Grade 1 to Grade 5",
+        "keywords": "Learn • Discover • Imagine",
+        "description": "Building strong fundamentals in language, numeracy and discovery through engaging, concept-driven, interactive classroom learning.",
+        "iconName": "BookOpen",
+        "bgColor": "bg-sky-50/60",
+        "borderColor": "border-sky-100",
+        "iconBgColor": "bg-sky-100",
+        "iconColor": "text-sky-800",
+        "linkText": "Learn More"
+      },
+      {
+        "id": "middle",
+        "title": "Middle School",
+        "subtitle": "(Grades 6–8)",
+        "grades": "Grade 6 to Grade 8",
+        "keywords": "Think • Create • Achieve",
+        "description": "Encouraging critical thinking, scientific inquiry, analytical skills, creative expression, and collaborative leadership.",
+        "iconName": "Compass",
+        "bgColor": "bg-teal-50/60",
+        "borderColor": "border-teal-100",
+        "iconBgColor": "bg-teal-100",
+        "iconColor": "text-teal-800",
+        "linkText": "Learn More"
+      },
+      {
+        "id": "senior",
+        "title": "Senior School",
+        "subtitle": "(Grades 9–10)",
+        "grades": "Grade 9 & Grade 10",
+        "keywords": "Prepare • Perform • Lead",
+        "description": "Equipping students with deep academic mastery, life skills, moral strength, and career readiness for a successful future.",
+        "iconName": "GraduationCap",
+        "bgColor": "bg-pink-50/60",
+        "borderColor": "border-pink-100",
+        "iconBgColor": "bg-pink-100",
+        "iconColor": "text-pink-800",
+        "linkText": "Learn More"
+      }
+    ]
+  },
+  "beyondAcademics": {
+    "eyebrow": "BEYOND ACADEMICS",
+    "heading": "Discover. Explore. Excel.",
+    "description": "We provide a wide range of co-curricular activities to help students discover their passions, hone latent talents and develop essential life skills.",
+    "ctaText": "Explore Student Life",
+    "activities": [
+      { "id": "act1", "title": "Sports &\nPhysical Fitness", "iconName": "Activity", "bgColor": "bg-sky-100", "iconColor": "text-sky-800" },
+      { "id": "act2", "title": "Arts &\nCreativity", "iconName": "Palette", "bgColor": "bg-amber-100", "iconColor": "text-amber-800" },
+      { "id": "act3", "title": "Music &\nPerforming Arts", "iconName": "Music", "bgColor": "bg-teal-100", "iconColor": "text-teal-800" },
+      { "id": "act4", "title": "Clubs &\nLeadership", "iconName": "Users", "bgColor": "bg-emerald-100", "iconColor": "text-emerald-800" },
+      { "id": "act5", "title": "Community\nOutreach", "iconName": "Heart", "bgColor": "bg-pink-100", "iconColor": "text-pink-800" },
+      { "id": "act6", "title": "Events &\nCompetitions", "iconName": "Trophy", "bgColor": "bg-amber-100", "iconColor": "text-amber-800" }
+    ]
+  },
+  "achievements": {
+    "eyebrow": "OUR ACHIEVEMENTS",
+    "heading": "Growing Together, Achieving More",
+    "description": "Our students continue to make us proud in academics, sports, arts and beyond through dedication and excellence.",
+    "stats": [
+      { "id": "st1", "value": "100+", "label": "Awards Won", "iconName": "Trophy" },
+      { "id": "st2", "value": "95%", "label": "Parent Satisfaction", "iconName": "Users" },
+      { "id": "st3", "value": "1500+", "label": "Happy Students", "iconName": "GraduationCap" },
+      { "id": "st4", "value": "15+", "label": "Years of Excellence", "iconName": "Award" }
+    ]
+  },
+  "admissionCTA": {
+    "heading": "Give Your Child the Right Start",
+    "description": "Admissions are now open for the academic year 2026 – 27.",
+    "primaryBtnText": "Apply Now",
+    "secondaryBtnText": "Schedule a Visit",
+    "decorativeLeftText": "Their Dreams\nStart Here",
+    "decorativeRightText": "Learn\nGrow\nBelong"
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "Nurturing Character,\nInspiring Excellence",
+      "subtitle": "Discover our journey, our pedagogical vision, and the timeless core values that guide Sanatana School of Excellence.",
+      "description": "Founded in Anantapur with a clear mission to integrate cultural awareness, character development and contemporary academic rigor.",
+      "image": "/banner_about.jpg"
+    },
+    "purpose": {
+      "heading": "Our Purpose & Educational Philosophy",
+      "paragraphs": [
+        "Sanātana – is a school for learning aimed at delivering education in its truest sense blending the great yesterday's techniques of our vedic culture and today's methodologies of modern education to prepare students for tomorrow.",
+        "We stand out by following a teaching philosophy still uncommon in the world - we put the child and her/his well-being in the centre.",
+        "We are not just a pre-school but a place where children are nurtured to be life-long learners and responsible citizens.",
+        "At Sanatana, we respect each child as unique individual, bubbling with limitless potential, curious and interested in their world around them. We acknowledge children as sophisticated thinkers and communicators, adopting numerous ways to share their thoughts and feelings. We embrace our role in providing a stress-free, secure and playful environment where learning is celebrated, curiosity enhanced and conversations with trained facilitators encouraged."
+      ],
+      "ctaText": "Meet Our Leadership",
+      "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80"
+    },
+    "visionMissionValues": {
+      "badgeTitle": "VISION & MISSION",
+      "paragraphs": [
+        "Our goal is to provide a structured curriculum and a positive environment which is designed to meet social, emotional, language and cognitive development of children and help them accept the challenge to succeed throughout their school years and beyond.",
+        "We also aim to partner with parents to see a generation emerge from our school, as a person who know their identity a purpose in life and share the freedom, hope a love in our community, nation and world over. We envision our children to become active participants in, and shapers of, their worlds and to grow cognitively, socially, emotionally and globally through child based, teacher facilitated learning."
+      ],
+      "admissionNote": {
+        "title": "Admission",
+        "text": "Welcome to Sanatana School of Excellence. For Admissions to our school please contact us."
+      },
+      "vision": {
+        "title": "Our Vision",
+        "description": "We envision our children to become active participants in, and shapers of, their worlds and to grow cognitively, socially, emotionally and globally through child based, teacher facilitated learning.",
+        "iconName": "Eye"
+      },
+      "mission": {
+        "title": "Our Mission",
+        "description": "To provide a structured curriculum and a positive environment designed to meet social, emotional, language and cognitive development of children and help them succeed.",
+        "iconName": "Compass"
+      },
+      "values": {
+        "title": "Our Core Values",
+        "description": "Partnering with parents to nurture individuals who know their identity, life purpose, and spread freedom, hope, and love in community and nation.",
+        "iconName": "Heart"
+      }
+    },
+    "principles": {
+      "badgeTitle": "OUR PRINCIPLES",
+      "list": [
+        "Think and act with honesty and integrity, individually and collectively.",
+        "Respect children, parents, teachers and all members of our community.",
+        "Anchor individualities and embrace differences.",
+        "Continuously strive to develop ourselves and those around us.",
+        "Help when needed and lead when required.",
+        "Embody the love of learning and marvel at the magic of possibilities beyond."
+      ]
+    },
+    "promise": {
+      "badgeTitle": "OUR PROMISE",
+      "intro": "We will meet our purpose through:",
+      "list": [
+        "Fulfilling every individual learner's potential and ensuring their academic and overall growth.",
+        "Attracting, developing and retaining passionate and capable educators who are committed to continuous improvement in their learners and themselves.",
+        "Creating a community of educators, learners and parents who look to each other as a broader family connected and supported by a common vision.",
+        "Delivering a powerful curriculum with a design that is based on thought, best practices and new developments for growth inside and outside the classroom walls.",
+        "Providing inspirational physical and emotional environments that promote a sense of community and possibility.",
+        "Integrating and using the power of technology to improve learning outcomes",
+        "Ensuring a continuous assessment of our pedagogy that focuses on learner performance and development."
+      ]
+    },
+    "advantages": {
+      "badgeTitle": "ADVANTAGES WITH SANATANA SCHOOLS?",
+      "list": [
+        "Fastest & Most Admired Growing Chain of Pre-School.",
+        "Dedicated & Well Trained Faculty.",
+        "International level of toys, books, activities and games.",
+        "Safe, Fun, Hygienic & Child Friendly Environment.",
+        "Child-centric & Age-Appropriate curriculum in association XSEED.",
+        "Unique innovative, international curriculum & affiliate program."
+      ]
+    },
+    "whySanatana": {
+      "badgeTitle": "WHY SANATANA?",
+      "paragraphs": [
+        "We understand the challenges faced by working and house hold parents and also the concerns of employers who require focused, productive employees who give their best during working hours. A high quality child care programme is a solution to both their needs. Our Child Care programme is much more than a drop-off location for working parents, it forms the foundation for holistic child development. It gives children ample opportunities to engage in a range of educational and social activities in a safe, secure and hygienic environment. Parents rest assured in the knowledge that centers use a holistic approach to promote the emotional, intellectual, physical and social development of their child. High quality child care has a positive influence not only on children's development and school readiness but also the parents' emotional well-being."
+      ]
+    },
+    "weAlsoAimTo": {
+      "badgeTitle": "WE ALSO AIM TO:",
+      "list": [
+        "Provide a safe, secure & stimulating environment. The safety of the children is of paramount importance to every staff member.",
+        "Encourage each child to reach & fulfill his/her individual potential.",
+        "Build & maintain your child's confidence in happy & caring surroundings.",
+        "Ensure equal opportunity for all children.",
+        "Create a partnership with parents to help support and enhance the development of each child individual care and attention by committed & professional staff.",
+        "Have lots of fun, play & friendship with other children."
+      ],
+      "quote": "Making perfect choices often becomes complicated."
+    },
+    "safetyAndSecurity": {
+      "badgeTitle": "SAFETY AND SECURITY:",
+      "list": [
+        "Police verification of the support staff.",
+        "Annual medical test for the support staff",
+        "Excellent adult child ratio.",
+        "Service evaluations at regular intervals",
+        "Regular sanitization of toys and equipment",
+        "First-aid certified teachers.",
+        "CCTVs monitoring the classrooms."
+      ]
+    },
+    "principalMessage": {
+      "heading": "Message from the Leadership",
+      "quote": "Education is not just about what we learn, but who we become. Our goal is to create a school where every child feels valued, challenged and supported to discover their highest potential.",
+      "name": "H. K. Madhusudhan Rao",
+      "role": "Founder, Sanatana School of Excellence",
+      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80",
+      "ctaText": "Read More"
+    },
+    "timeline": [
+      { "year": "2014", "title": "Inception & Foundation", "description": "Sanatana was established in Maruthi Nagar, Anantapur with a focus on value-rooted early learning." },
+      { "year": "2017", "title": "Integrated Childcare & Preschool", "description": "Launched state-of-the-art integrated preschool and age-appropriate learning resources." },
+      { "year": "2019", "title": "Primary School Expansion", "description": "Expanded concept-based primary school curriculum with activity and exploratory learning." },
+      { "year": "2022", "title": "Creative Development Hub", "description": "Introduced dedicated performing arts, creative printing, and experiential learning zones." },
+      { "year": "Today", "title": "Excellence & Growth", "description": "1500+ students thriving in an environment built on care, values, and modern pedagogies." }
+    ],
+    "campusPreview": {
+      "title": "Our Campus & Environment",
+      "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1000&q=85",
+      "ctaText": "Virtual Tour"
+    },
+    "communityMetrics": [
+      { "count": "1500+", "label": "Students", "iconName": "GraduationCap" },
+      { "count": "80+", "label": "Teachers", "iconName": "Users" },
+      { "count": "2400+", "label": "Parents", "iconName": "Heart" },
+      { "count": "3000+", "label": "Alumni", "iconName": "Award" }
+    ]
+  },
+  "academicsPage": {
+    "hero": {
+      "title": "Academic Excellence\nfor a Brighter Future",
+      "subtitle": "A well-rounded curriculum designed to spark curiosity, build skills and prepare students for life.",
+      "image": "/banner_academics.jpg",
+      "decorativeTag": "Learn\nExplore\nCreate"
+    },
+    "philosophy": {
+      "heading": "Our Academic Philosophy",
+      "description": "Concept-oriented knowledge integrated with moral values, hands-on activities, continuous inquiry, and differentiated pacing for every unique child.",
+      "ctaText": "Our Curriculum",
+      "pillars": [
+        { "title": "Child-Centric Learning", "iconName": "Users" },
+        { "title": "Concept-Based Mastery", "iconName": "Lightbulb" },
+        { "title": "Cultural Roots & Values", "iconName": "Heart" },
+        { "title": "Expressive Arts & Drama", "iconName": "Sparkles" },
+        { "title": "Safe & Secure Campus", "iconName": "Shield" }
+      ]
+    },
+    "stages": [
+      {
+        "id": "ey",
+        "title": "Early Years & Kindergarten",
+        "subtitle": "Pre-Primary (Nursery, LKG, UKG)",
+        "description": "Sensory discovery, phonics, storytelling, fine-motor games, and nurturing social development.",
+        "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": "pri",
+        "title": "Primary Learning",
+        "subtitle": "Grades 1 to 5",
+        "description": "Building strong foundations in mathematics, science, language, environmental studies, and collaborative projects.",
+        "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": "mid",
+        "title": "Middle School",
+        "subtitle": "Grades 6 to 8",
+        "description": "Cultivating analytical thinking, practical lab demonstrations, digital literacy, and holistic personality growth.",
+        "image": "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": "sen",
+        "title": "Secondary & Senior School",
+        "subtitle": "Grades 9 & 10",
+        "description": "Academic rigor, board examination mentoring, leadership, moral discernment, and career guidance.",
+        "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "pedagogy": [
+      { "title": "Concept Learning", "description": "Focusing on profound understanding over mere memorization through real-world applications.", "iconName": "BookOpen" },
+      { "title": "Creative Expression", "description": "Music, dance, drama, art, and printing for complete emotional and cognitive expression.", "iconName": "Palette" },
+      { "title": "Experiential Exploration", "description": "Outings, games, celebrations, and interactive contests that connect learning with nature.", "iconName": "Compass" },
+      { "title": "Communication Skills", "description": "Structured opportunities for conversation, public speaking, active listening, and collaboration.", "iconName": "MessageSquare" }
+    ],
+    "assessmentAndCoCurricular": {
+      "assessment": {
+        "title": "Holistic Continuous Evaluation",
+        "description": "Our assessment model tracks intellectual milestones, creative contributions, character habits, and collaborative projects constructively.",
+        "ctaText": "Evaluation Guidelines"
+      },
+      "coCurricular": {
+        "title": "Integrated Co-Curriculars",
+        "description": "Seamless integration of sports, cultural celebrations, yoga, and community activities into the weekly timetable.",
+        "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=600&q=80"
+      }
+    }
+  },
+  "admissionsPage": {
+    "hero": {
+      "title": "Begin Your Child’s Journey\nat Sanatana",
+      "subtitle": "Discover a warm, value-driven learning environment built around curiosity, creativity, and meaningful experiences.",
+      "image": "/banner_admissions.jpg",
+      "decorativeTag": "Nurturing\nEvery Child\nEvery Day"
+    },
+    "whyChooseUs": [
+      { "title": "Concept-Based Curriculum", "iconName": "BookOpen", "bgColor": "bg-amber-100", "iconColor": "text-amber-800" },
+      { "title": "Qualified & Trained Staff", "iconName": "Users", "bgColor": "bg-sky-100", "iconColor": "text-sky-800" },
+      { "title": "Stimulating Learning Environment", "iconName": "Sparkles", "bgColor": "bg-emerald-100", "iconColor": "text-emerald-800" },
+      { "title": "Integrated Preschool & Childcare", "iconName": "Heart", "bgColor": "bg-orange-100", "iconColor": "text-orange-800" }
+    ],
+    "admissionSteps": [
+      {
+        "stepNumber": "01",
+        "title": "Online / Campus Enquiry",
+        "description": "Fill out our simple online form or visit our campus in Maruthi Nagar, Anantapur."
+      },
+      {
+        "stepNumber": "02",
+        "title": "Interactive Assessment & Tour",
+        "description": "Engaging interaction session with the child and detailed orientation for parents."
+      },
+      {
+        "stepNumber": "03",
+        "title": "Document Verification",
+        "description": "Submit birth certificate, previous school records (if any), and passport photos."
+      },
+      {
+        "stepNumber": "04",
+        "title": "Welcome to Sanatana",
+        "description": "Fee completion, uniform & kit collection, and beginning the joyous learning journey."
+      }
+    ],
+    "eligibility": {
+      "badgeTitle": "ADMISSION ELIGIBILITY CRITERIA",
+      "preSchoolTable": [
+        { "program": "Play Group", "age": "2 to 3 years" },
+        { "program": "Nursery", "age": "3 to 4 years" },
+        { "program": "L.K.G", "age": "4 to 5 years" },
+        { "program": "U.K.G", "age": "5 to 6 years" }
+      ],
+      "primarySchoolNote": "For class 1st the child must have completed 6 years of age. For class 2nd onwards the admission is based on the performance in the entrance test & also previous year performance.",
+      "requiredDocumentsTitle": "DOCUMENTS TO BE SUBMITTED AT THE TIME OF ADMISSION:",
+      "requiredDocuments": [
+        "Photocopy of Date of Birth Certificate.",
+        "Original Transfer Certificate of previous school.",
+        "Four passport size photographs.",
+        "Photocopy of Aadhar Card.",
+        "Photocopy of Caste Certificate (if applicable)."
+      ],
+      "ctaText": "Enquire for Admission"
+    },
+    "faq": [
+      {
+        "question": "What is the age criteria for Kindergarten?",
+        "answer": "Play Group: 2 to 3 years, Nursery: 3 to 4 years, LKG: 4 to 5 years, UKG: 5 to 6 years, and Class 1 requires 6 years completed."
+      },
+      {
+        "question": "What is the student-teacher ratio at Sanatana?",
+        "answer": "We maintain an optimal ratio to ensure individualized care, attentive facilitation, and meaningful communication for every child."
+      },
+      {
+        "question": "Does the school offer transportation facilities?",
+        "answer": "Yes, we provide convenient pickup and drop-off timings with designated safe transport across prime routes in Anantapur."
+      },
+      {
+        "question": "How are traditional values integrated with modern academics?",
+        "answer": "Our daily routine blends moral stories, cultural celebrations, and respectful conduct with modern STEM, digital literacy, and experiential projects."
+      }
+    ]
+  },
+  "beyondClassroomsPage": {
+    "hero": {
+      "title": "Learning Beyond Classrooms",
+      "subtitle": "Empowering children through art, music, dance, drama, printing, sports, celebrations, and outdoor exploration.",
+      "image": "/banner_beyond.jpg",
+      "decorativeTag": "Discover\nExpress\nFlourish"
+    },
+    "categories": [
+      {
+        "id": "bc1",
+        "title": "Outdoor Toy Train & Play Station",
+        "image": "/gallery_item_1.jpg",
+        "tag": "Play & Motor Skills"
+      },
+      {
+        "id": "bc2",
+        "title": "Sensory Number Math & Shape Discovery",
+        "image": "/gallery_item_2.jpg",
+        "tag": "Montessori Learning"
+      },
+      {
+        "id": "bc3",
+        "title": "Hands-On Counting & Motor Skills",
+        "image": "/gallery_item_3.jpg",
+        "tag": "Activity Based"
+      },
+      {
+        "id": "bc4",
+        "title": "Independence Day Stage Celebration",
+        "image": "/gallery_item_4.jpg",
+        "tag": "Patriotic Festivities"
+      },
+      {
+        "id": "bc5",
+        "title": "Freedom Fighters Fancy Dress Presentation",
+        "image": "/gallery_item_5.jpg",
+        "tag": "Cultural Costume"
+      },
+      {
+        "id": "bc6",
+        "title": "Traditional Cultural Celebration & Drama",
+        "image": "/gallery_item_6.jpg",
+        "tag": "Cultural Roots"
+      },
+      {
+        "id": "bc7",
+        "title": "Little Chefs Healthy Salad Workshop",
+        "image": "/gallery_item_7.jpg",
+        "tag": "Practical Life"
+      },
+      {
+        "id": "bc8",
+        "title": "Angels & Festive Costume Performance",
+        "image": "/gallery_item_8.jpg",
+        "tag": "Annual Events"
+      },
+      {
+        "id": "bc9",
+        "title": "Republic Day March & Flag Salutation",
+        "image": "/gallery_item_9.jpg",
+        "tag": "National Pride"
+      },
+      {
+        "id": "bc10",
+        "title": "Early Literacy & Teacher Guidance",
+        "image": "/gallery_item_10.jpg",
+        "tag": "Guided Learning"
+      },
+      {
+        "id": "bc11",
+        "title": "Outdoor Football & Team Athletics",
+        "image": "/gallery_item_11.jpg",
+        "tag": "Sports & Fitness"
+      },
+      {
+        "id": "bc12",
+        "title": "Bright Yellow Day Colour Recognition",
+        "image": "/gallery_item_12.jpg",
+        "tag": "Theme Celebration"
+      }
+    ],
+    "cta": {
+      "heading": "Discover Your Child's True Potential",
+      "primaryBtn": "Apply for Admissions",
+      "secondaryBtn": "Schedule Campus Visit"
+    }
+  },
+  "facilitiesPage": {
+    "hero": {
+      "title": "A Space Designed\nfor Young Minds",
+      "subtitle": "Safe, secure, and stimulating learning environments equipped with rich educational resources.",
+      "image": "/banner_facilities.jpg",
+      "decorativeTag": "Safe\nInspiring\nModern"
+    },
+    "facilityItems": [
+      {
+        "id": "f1",
+        "title": "Interactive Montessori Learning Classrooms",
+        "image": "/gallery_item_2.jpg"
+      },
+      {
+        "id": "f2",
+        "title": "Activity-Based Math & Counting Centers",
+        "image": "/gallery_item_3.jpg"
+      },
+      {
+        "id": "f3",
+        "title": "Outdoor Play Zone & Toy Train Station",
+        "image": "/gallery_item_1.jpg"
+      },
+      {
+        "id": "f4",
+        "title": "Healthy Cooking & Practical Life Studio",
+        "image": "/gallery_item_7.jpg"
+      },
+      {
+        "id": "f5",
+        "title": "Sports Field & Team Athletics Ground",
+        "image": "/gallery_item_11.jpg"
+      },
+      {
+        "id": "f6",
+        "title": "Cultural Stage & Festive Activity Arena",
+        "image": "/gallery_item_6.jpg"
+      }
+    ],
+    "cta": {
+      "heading": "Visit Our Campus in Anantapur",
+      "primaryBtn": "Book a Tour",
+      "secondaryBtn": "Contact Office"
+    }
+  },
+  "parentCornerPage": {
+    "hero": {
+      "title": "Parent Partnership & Portal",
+      "subtitle": "We believe in fostering a continuous, transparent, and caring partnership between teachers, students, and parents.",
+      "image": "/banner_parents.jpg"
+    },
+    "portalCards": [
+      {
+        "id": "pc1",
+        "title": "Parent Portal",
+        "description": "Access notices, daily reports, and administrative updates anytime.",
+        "iconName": "Laptop",
+        "bgColor": "bg-teal-100",
+        "iconColor": "text-teal-800"
+      },
+      {
+        "id": "pc2",
+        "title": "Academic Updates",
+        "description": "Stay informed about your child's progress, milestones, and assessments.",
+        "iconName": "BookOpen",
+        "bgColor": "bg-amber-100",
+        "iconColor": "text-amber-800"
+      },
+      {
+        "id": "pc3",
+        "title": "Attendance Tracking",
+        "description": "Check daily attendance and leave status seamlessly.",
+        "iconName": "UserCheck",
+        "bgColor": "bg-sky-100",
+        "iconColor": "text-sky-800"
+      },
+      {
+        "id": "pc4",
+        "title": "Events & Calendar",
+        "description": "Never miss annual celebrations, holidays, or school celebrations.",
+        "iconName": "Calendar",
+        "bgColor": "bg-pink-100",
+        "iconColor": "text-pink-800"
+      },
+      {
+        "id": "pc5",
+        "title": "School Circulars",
+        "description": "Official announcements, notices, and academic guidelines.",
+        "iconName": "FileText",
+        "bgColor": "bg-purple-100",
+        "iconColor": "text-purple-800"
+      },
+      {
+        "id": "pc6",
+        "title": "Transport Information",
+        "description": "Bus route details, convenient timings, and driver contact info.",
+        "iconName": "Bus",
+        "bgColor": "bg-emerald-100",
+        "iconColor": "text-emerald-800"
+      },
+      {
+        "id": "pc7",
+        "title": "Parent FAQs",
+        "description": "Quick answers regarding uniforms, books, timings, and schedules.",
+        "iconName": "HelpCircle",
+        "bgColor": "bg-cyan-100",
+        "iconColor": "text-cyan-800"
+      },
+      {
+        "id": "pc8",
+        "title": "Connect With Educators",
+        "description": "Direct communication channel with your child’s class facilitators.",
+        "iconName": "MessageSquare",
+        "bgColor": "bg-amber-100",
+        "iconColor": "text-amber-800"
+      }
+    ],
+    "cta": {
+      "heading": "Stay Connected with Sanatana",
+      "primaryBtn": "Login to Parent Portal",
+      "secondaryBtn": "Contact Support"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Get in Touch with Sanatana",
+      "subtitle": "We would love to hear from you. Reach out to our campus in Maruthi Nagar, Anantapur for any enquiries.",
+      "image": "/banner_contact.jpg",
+      "decorativeTag": "Let’s Build\nA Brighter\nTomorrow\nTogether"
+    },
+    "contactInfo": {
+      "address": "3rd Cross, Maruthi Nagar, Near Kodanda Ramalayam,\nAnantapuramu, Andhra Pradesh – 515004",
+      "phone": "+91 95150 73726 / +91 95733 52368 / 08554-232499",
+      "email": "sanatanakids@gmail.com",
+      "officeHours": "Mon – Sat: 8:30 AM – 4:30 PM"
+    },
+    "mapImage": "https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=600&q=80",
+    "visitImage": "/banner_contact.jpg",
+    "socialMessage": "Follow our journey and stay connected with Sanatana School of Excellence."
+  },
+  "footer": {
+    "shortDescription": "Sanatana School of Excellence — Where timeless values meet modern learning in Maruthi Nagar, Anantapur.",
+    "quickLinks": [
+      { "label": "Home", "href": "#home" },
+      { "label": "About", "href": "#about" },
+      { "label": "Academics", "href": "#academics" },
+      { "label": "Admissions", "href": "#admissions" }
+    ],
+    "facilitiesLinks": [
+      { "label": "Facilities", "href": "#facilities" },
+      { "label": "News & Events", "href": "#beyond-classrooms" },
+      { "label": "Parent Corner", "href": "#parent-corner" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "contact": {
+      "address": "Maruthi Nagar, Anantapur – 515004\nAndhra Pradesh, India",
+      "phone": "+91 95150 73726",
+      "email": "sanatanakids@gmail.com"
+    },
+    "socialMessage": "Let's build a brighter tomorrow together.",
+    "copyrightText": "© 2026 Sanatana School of Excellence. All Rights Reserved."
+  }
+}

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@300..900&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Primary Logo & Heading Orange Brand Palette */
+    --primary-orange: #F36B21;
+    --deep-orange: #D94F16;
+    
+    /* Subtle Light-Orange / Warm Cream Backgrounds */
+    --page-bg: #FFF4E8;
+    --section-bg: #FFF8F1;
+    --soft-orange: #FFEBDD;
+    --light-orange: #FFF9F4;
+    --cta-bg: #FFF0E3;
+    --navbar-bg: #FFFCF8;
+    
+    /* Typography & Contrast */
+    --text-primary: #263238;
+    --text-secondary: #5F6368;
+    --white: #FFFFFF;
+
+    /* Legacy mapping tokens */
+    --school-primary: var(--primary-orange);
+    --school-primary-light: #ea580c;
+    --school-primary-dark: var(--deep-orange);
+    --school-secondary: #f59e0b;
+    --school-background: var(--page-bg);
+    --school-surface: var(--section-bg);
+    --school-surface-alt: var(--soft-orange);
+    --school-text-main: var(--text-primary);
+    --school-text-muted: var(--text-secondary);
+    --school-radius: 1rem;
+    
+    /* Font families */
+    --school-font-heading: 'Playfair Display', Georgia, serif;
+    --school-font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --school-font-script: 'Caveat', cursive;
+  }
+
+  body {
+    font-family: var(--school-font-body);
+    color: var(--text-primary);
+    background-color: var(--page-bg);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .font-heading {
+    font-family: var(--school-font-heading);
+  }
+
+  .font-script {
+    font-family: var(--school-font-script);
+  }
+}
+
+/* Dynamic color utility classes */
+.bg-page-warm {
+  background-color: var(--page-bg);
+}
+.bg-section-warm {
+  background-color: var(--section-bg);
+}
+.bg-soft-orange {
+  background-color: var(--soft-orange);
+}
+.bg-light-orange {
+  background-color: var(--light-orange);
+}
+.bg-cta-warm {
+  background-color: var(--cta-bg);
+}
+.bg-navbar-warm {
+  background-color: var(--navbar-bg);
+}
+
+.text-primary-orange {
+  color: var(--primary-orange);
+}
+.text-deep-orange {
+  color: var(--deep-orange);
+}
+.text-main-dark {
+  color: var(--text-primary);
+}
+.text-muted-gray {
+  color: var(--text-secondary);
+}
+
+.border-orange-subtle {
+  border-color: rgba(243, 107, 33, 0.15);
+}
+
+.card-warm-shadow {
+  box-shadow: 0 8px 30px rgba(217, 79, 22, 0.06);
+}
+
+/* Smooth animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.9; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.04); }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
+/* Accessibility: prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
