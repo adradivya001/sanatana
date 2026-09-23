@@ -217,12 +217,12 @@
     "viewAllText": "View All Programmes",
     "stages": [
       {
-        "id": "kindergarten",
-        "title": "Kindergarten",
-        "subtitle": "(Pre-Primary)",
-        "grades": "Nursery, LKG, UKG",
-        "keywords": "Play • Explore • Grow",
-        "description": "A joyful start with a safe, nurturing and stimulating environment focused on sensory exploration, curiosity and foundational habits.",
+        "id": "playgroup",
+        "title": "Playgroup",
+        "subtitle": "(2 to 3 yrs)",
+        "grades": "Age: 2 to 3 years",
+        "keywords": "Sensory • Explore • Play",
+        "description": "Joyful early sensory exploration, gentle habit building, social interaction, and foundational motor development in a safe, caring setting.",
         "iconName": "Smile",
         "bgColor": "bg-amber-50/60",
         "borderColor": "border-amber-100",
@@ -231,13 +231,13 @@
         "linkText": "Learn More"
       },
       {
-        "id": "primary",
-        "title": "Primary School",
-        "subtitle": "(Grades 1–5)",
-        "grades": "Grade 1 to Grade 5",
-        "keywords": "Learn • Discover • Imagine",
-        "description": "Building strong fundamentals in language, numeracy and discovery through engaging, concept-driven, interactive classroom learning.",
-        "iconName": "BookOpen",
+        "id": "nursery",
+        "title": "Nursery",
+        "subtitle": "(3 to 4 yrs)",
+        "grades": "Age: 3 to 4 years",
+        "keywords": "Curiosity • Words • Habits",
+        "description": "Early phonics, creative storytelling, rhythm, fine-motor coordination, curiosity-driven play, and joyful vocabulary building.",
+        "iconName": "Sparkles",
         "bgColor": "bg-sky-50/60",
         "borderColor": "border-sky-100",
         "iconBgColor": "bg-sky-100",
@@ -245,31 +245,45 @@
         "linkText": "Learn More"
       },
       {
-        "id": "middle",
-        "title": "Middle School",
-        "subtitle": "(Grades 6–8)",
-        "grades": "Grade 6 to Grade 8",
-        "keywords": "Think • Create • Achieve",
-        "description": "Encouraging critical thinking, scientific inquiry, analytical skills, creative expression, and collaborative leadership.",
-        "iconName": "Compass",
-        "bgColor": "bg-teal-50/60",
-        "borderColor": "border-teal-100",
-        "iconBgColor": "bg-teal-100",
-        "iconColor": "text-teal-800",
+        "id": "kg1",
+        "title": "Kindergarten - I",
+        "subtitle": "(LKG: 4 to 5 yrs)",
+        "grades": "Age: 4 to 5 years",
+        "keywords": "Phonics • Numbers • Art",
+        "description": "Structured early literacy, hands-on numeracy concepts, expressive arts, social skills, and engaging cognitive inquiry.",
+        "iconName": "BookOpen",
+        "bgColor": "bg-emerald-50/60",
+        "borderColor": "border-emerald-100",
+        "iconBgColor": "bg-emerald-100",
+        "iconColor": "text-emerald-800",
         "linkText": "Learn More"
       },
       {
-        "id": "senior",
-        "title": "Senior School",
-        "subtitle": "(Grades 9–10)",
-        "grades": "Grade 9 & Grade 10",
-        "keywords": "Prepare • Perform • Lead",
-        "description": "Equipping students with deep academic mastery, life skills, moral strength, and career readiness for a successful future.",
+        "id": "kg2",
+        "title": "Kindergarten - II",
+        "subtitle": "(UKG: 5 to 6 yrs)",
+        "grades": "Age: 5 to 6 years",
+        "keywords": "Reading • Math • Growth",
+        "description": "Developing self-confidence, fluent reading readiness, foundational mathematics, creative problem-solving, and primary school preparedness.",
+        "iconName": "Compass",
+        "bgColor": "bg-purple-50/60",
+        "borderColor": "border-purple-100",
+        "iconBgColor": "bg-purple-100",
+        "iconColor": "text-purple-800",
+        "linkText": "Learn More"
+      },
+      {
+        "id": "primary",
+        "title": "Primary School",
+        "subtitle": "(1st to 7th Standard)",
+        "grades": "Class 1st to 7th",
+        "keywords": "Concepts • Values • Skills",
+        "description": "Concept-driven academic excellence, strong scientific and mathematical reasoning, value-rooted character education, and holistic growth.",
         "iconName": "GraduationCap",
-        "bgColor": "bg-pink-50/60",
-        "borderColor": "border-pink-100",
-        "iconBgColor": "bg-pink-100",
-        "iconColor": "text-pink-800",
+        "bgColor": "bg-orange-50/60",
+        "borderColor": "border-orange-100",
+        "iconBgColor": "bg-orange-100",
+        "iconColor": "text-orange-800",
         "linkText": "Learn More"
       }
     ]
@@ -571,32 +585,39 @@
     },
     "stages": [
       {
-        "id": "ey",
-        "title": "Early Years & Kindergarten",
-        "subtitle": "Pre-Primary (Nursery, LKG, UKG)",
-        "description": "Sensory discovery, phonics, storytelling, fine-motor games, and nurturing social development.",
-        "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=600&q=80"
+        "id": "acad-pg",
+        "title": "Playgroup",
+        "subtitle": "Age: 2 to 3 yrs",
+        "description": "Sensory discovery, gentle socialization, music, movement, and playful exploration in a safe, loving environment.",
+        "image": "/gallery_item_1.jpg"
       },
       {
-        "id": "pri",
-        "title": "Primary Learning",
-        "subtitle": "Grades 1 to 5",
-        "description": "Building strong foundations in mathematics, science, language, environmental studies, and collaborative projects.",
-        "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=600&q=80"
+        "id": "acad-nursery",
+        "title": "Nursery",
+        "subtitle": "Age: 3 to 4 yrs",
+        "description": "Language exposure, phonics awareness, fine-motor skill activities, creative drawing, and interactive group play.",
+        "image": "/gallery_item_2.jpg"
       },
       {
-        "id": "mid",
-        "title": "Middle School",
-        "subtitle": "Grades 6 to 8",
-        "description": "Cultivating analytical thinking, practical lab demonstrations, digital literacy, and holistic personality growth.",
-        "image": "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=600&q=80"
+        "id": "acad-kg1",
+        "title": "Kindergarten - I (LKG)",
+        "subtitle": "Age: 4 to 5 yrs",
+        "description": "Foundational numeracy, early writing skills, environmental discovery, storytelling, and Montessori counting materials.",
+        "image": "/gallery_item_3.jpg"
       },
       {
-        "id": "sen",
-        "title": "Secondary & Senior School",
-        "subtitle": "Grades 9 & 10",
-        "description": "Academic rigor, board examination mentoring, leadership, moral discernment, and career guidance.",
-        "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=600&q=80"
+        "id": "acad-kg2",
+        "title": "Kindergarten - II (UKG)",
+        "subtitle": "Age: 5 to 6 yrs",
+        "description": "Fluent reading readiness, arithmetic concepts, curiosity-driven science experiments, and primary school readiness.",
+        "image": "/gallery_item_10.jpg"
+      },
+      {
+        "id": "acad-primary",
+        "title": "Primary (1st to 7th Standard)",
+        "subtitle": "Grades 1 to 7",
+        "description": "Comprehensive concept learning, analytical thinking, languages, science laboratories, arts, and moral values.",
+        "image": "/banner_about.jpg"
       }
     ],
     "pedagogy": [
@@ -693,20 +714,24 @@
       "badgeTitle": "ADMISSION ELIGIBILITY CRITERIA",
       "preSchoolTable": [
         {
-          "program": "Play Group",
-          "age": "2 to 3 years"
+          "program": "PLAYGROUP",
+          "age": "2 TO 3 yrs."
         },
         {
-          "program": "Nursery",
-          "age": "3 to 4 years"
+          "program": "NURSERY",
+          "age": "3 TO 4 yrs."
         },
         {
-          "program": "L.K.G",
-          "age": "4 to 5 years"
+          "program": "KINDERGARTEN - I",
+          "age": "4 TO 5 yrs."
         },
         {
-          "program": "U.K.G",
-          "age": "5 to 6 years"
+          "program": "KINDERGARTEN - II",
+          "age": "5 TO 6 yrs."
+        },
+        {
+          "program": "PRIMARY (1st TO 7th Standard)",
+          "age": "--"
         }
       ],
       "primarySchoolNote": "For class 1st the child must have completed 6 years of age. For class 2nd onwards the admission is based on the performance in the entrance test & also previous year performance.",

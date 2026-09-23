@@ -37,51 +37,45 @@ export const AcademicJourney: React.FC<AcademicJourneyProps> = ({ data }) => {
               <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1.5 transition-transform" />
             </button>
           </FadeIn>
-        </div>
-
-        {/* 4 Academic Stage Cards Grid */}
-        <StaggerContainer
-          staggerChildren={0.08}
-          delayChildren={0.1}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
-        >
+        </div>        {/* 5 Distinct Stage Cards */}
+        <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5">
           {data.stages.map((stage) => (
-            <StaggerItem key={stage.id}>
+            <StaggerItem key={stage.id} className="h-full">
               <motion.div
-                whileHover={{ y: -8, transition: { duration: 0.25, ease: 'easeOut' } }}
-                className={`h-full rounded-3xl p-6 sm:p-7 ${stage.bgColor} border ${stage.borderColor} shadow-[0_8px_30px_rgba(217,79,22,0.06)] hover:shadow-[0_16px_36px_rgba(217,79,22,0.12)] transition-all duration-300 flex flex-col group bg-white`}
+                whileHover={{ y: -6 }}
+                transition={{ duration: 0.25, ease: "easeOut" }}
+                className="group relative flex flex-col h-full bg-white rounded-2xl p-6 shadow-sm border border-slate-100 hover:shadow-xl hover:border-amber-200 transition-all duration-300"
               >
-                {/* Icon */}
+                {/* Stage Icon */}
                 <motion.div
-                  whileHover={{ scale: 1.08 }}
-                  transition={{ duration: 0.2 }}
-                  className={`w-13 h-13 rounded-2xl ${stage.iconBgColor} flex items-center justify-center mb-6 shadow-xs group-hover:scale-105 transition-transform`}
+                  whileHover={{ scale: 1.1, rotate: 5 }}
+                  className="w-12 h-12 rounded-xl bg-amber-50 text-amber-600 border border-amber-100/80 flex items-center justify-center mb-5 group-hover:bg-[#D94F16] group-hover:text-white transition-colors duration-300 shadow-sm"
                 >
-                  <DynamicIcon name={stage.iconName} className={`w-7 h-7 ${stage.iconColor}`} />
+                  <DynamicIcon name={stage.iconName} className="w-6 h-6" />
                 </motion.div>
 
                 {/* Title & Subtitle */}
-                <h3 className="text-lg font-bold text-slate-900 leading-tight">
+                <h3 className="text-base font-bold text-slate-900 leading-snug">
                   {stage.title}
                 </h3>
-                <p className="text-xs font-bold text-slate-500 mb-3">
+                <p className="text-xs font-semibold text-slate-500 mb-2.5">
                   {stage.subtitle}
                 </p>
 
                 {/* Keywords Tagline */}
-                <p className="text-[11px] font-bold text-amber-700 tracking-wide uppercase mb-3">
+                <p className="text-[10px] font-bold text-[#D94F16] tracking-wide uppercase mb-3">
                   {stage.keywords}
                 </p>
 
                 {/* Description */}
-                <p className="text-xs text-slate-600 leading-relaxed mb-6 font-normal">
+                <p className="text-xs text-slate-600 leading-relaxed mb-5 font-normal flex-1">
                   {stage.description}
                 </p>
 
                 {/* CTA Link */}
                 <button
                   onClick={openEnquiryModal}
-                  className="mt-auto inline-flex items-center gap-1 text-xs font-bold text-[#c2410c] group-hover:text-orange-800 transition-colors text-left cursor-pointer"
+                  className="mt-auto inline-flex items-center gap-1.5 text-xs font-bold text-[#D94F16] hover:text-[#F36B21] transition-colors text-left cursor-pointer pt-2 border-t border-slate-100"
                 >
                   <span>{stage.linkText}</span>
                   <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1.5 transition-transform" />
