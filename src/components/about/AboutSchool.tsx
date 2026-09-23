@@ -1,7 +1,7 @@
 import React from 'react';
 import type { SchoolData } from '../../types/school';
 import { DynamicIcon } from '../common/DynamicIcon';
-import { Play, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { FadeIn, Reveal, StaggerContainer, StaggerItem, ParallaxImage } from '../animations';
 
@@ -15,7 +15,7 @@ export const AboutSchool: React.FC<AboutSchoolProps> = ({ about }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           
-          {/* Left Column: Campus Image with Video Play Badge & Script Tag */}
+          {/* Left Column: Campus Image with Script Tag */}
           <FadeIn direction="left" className="lg:col-span-6 relative">
             {/* Handwritten Script Header on image */}
             <div className="absolute top-6 left-6 z-20 font-script text-white text-2xl font-bold drop-shadow-md select-none">
@@ -32,24 +32,6 @@ export const AboutSchool: React.FC<AboutSchoolProps> = ({ about }) => {
                 className="w-full h-full"
                 imageClassName="group-hover:scale-103 transition-transform duration-700"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
-
-              {/* Center Play Button Overlay */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <motion.div
-                  whileHover={{ scale: 1.08 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="w-16 h-16 rounded-full bg-white/90 backdrop-blur-md text-[#D94F16] flex items-center justify-center shadow-2xl cursor-pointer"
-                >
-                  <Play className="w-7 h-7 fill-[#D94F16] ml-1" />
-                </motion.div>
-              </div>
-
-              {/* Bottom Label Strip */}
-              <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between text-white text-xs font-bold bg-black/40 backdrop-blur-md px-5 py-2.5 rounded-xl border border-white/20">
-                <span>{about.videoBadgeText}</span>
-                <span className="w-10 h-1 bg-amber-400 rounded-full"></span>
-              </div>
             </div>
           </FadeIn>
 
@@ -122,5 +104,3 @@ export const AboutSchool: React.FC<AboutSchoolProps> = ({ about }) => {
     </Reveal>
   );
 };
-
-
