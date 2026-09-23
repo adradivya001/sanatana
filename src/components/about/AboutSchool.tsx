@@ -91,16 +91,17 @@ export const AboutSchool: React.FC<AboutSchoolProps> = ({ about }) => {
           </h2>
         </motion.div>
 
-        {/* Paragraphs (Left-aligned clean typography) */}
-        <div className="max-w-[700px] space-y-3.5 sm:space-y-4 text-[#332A26] text-xs sm:text-sm md:text-[14.5px] leading-[1.65] font-normal font-sans">
+        {/* Paragraphs (Left-aligned clean typography with high contrast visibility) */}
+        <div className="max-w-[720px] space-y-4 sm:space-y-4.5 text-[#2C211B] text-sm sm:text-[15px] md:text-[16px] leading-[1.72] font-normal font-sans">
           
           <motion.p
             initial={{ opacity: 0, y: 12 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
+            className="text-[#1A1310] font-medium"
           >
-            <strong className="text-[#1F1916] font-bold">Sanātana</strong> is a school for learning aimed at delivering education in its truest sense blending the great yesterday's techniques of our vedic culture and today's methodologies of modern education to prepare students for tomorrow.
+            <strong className="text-[#D94F16] font-bold">Sanātana</strong> is a school for learning aimed at delivering education in its truest sense blending the great yesterday's techniques of our vedic culture and today's methodologies of modern education to prepare students for tomorrow.
           </motion.p>
 
           <motion.p
@@ -108,7 +109,7 @@ export const AboutSchool: React.FC<AboutSchoolProps> = ({ about }) => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="text-[#4A3D36]"
+            className="text-[#2C211B]"
           >
             We stand out by following a teaching philosophy still uncommon in the world – we put the child and her/his well-being in the centre.
           </motion.p>
@@ -118,7 +119,7 @@ export const AboutSchool: React.FC<AboutSchoolProps> = ({ about }) => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="text-[#4A3D36]"
+            className="text-[#2C211B]"
           >
             We are not just a pre-school but a place where children are nurtured to be life-long learners and responsible citizens.
           </motion.p>
@@ -128,7 +129,7 @@ export const AboutSchool: React.FC<AboutSchoolProps> = ({ about }) => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.5 }}
-            className="text-[#4A3D36] leading-relaxed"
+            className="text-[#3A2D26] leading-relaxed"
           >
             At Sanātana, we respect each child as a unique individual, bubbling with limitless potential, curious and interested in their world around them. We acknowledge children as sophisticated thinkers and communicators, adopting numerous ways to share their thoughts and feelings. We embrace our role in providing a stress-free, secure and playful environment where learning is celebrated, curiosity enhanced and conversations with trained facilitators encouraged.
           </motion.p>
