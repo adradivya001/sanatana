@@ -23,15 +23,52 @@
     }
   },
   "navigation": [
-    { "id": "home", "label": "Home", "href": "#home" },
-    { "id": "about", "label": "About", "href": "#about" },
-    { "id": "academics", "label": "Academics", "href": "#academics" },
-    { "id": "admissions", "label": "Admissions", "href": "#admissions" },
-    { "id": "beyond-classrooms", "label": "Beyond Classrooms", "href": "#beyond-classrooms" },
-    { "id": "facilities", "label": "Facilities", "href": "#facilities" },
-    { "id": "parent-corner", "label": "Parent Corner", "href": "#parent-corner" },
-    { "id": "contact", "label": "Contact", "href": "#contact" },
-    { "id": "enquire-now", "label": "Enquire Now", "href": "#admissions", "isButton": true }
+    {
+      "id": "home",
+      "label": "Home",
+      "href": "#home"
+    },
+    {
+      "id": "about",
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "id": "academics",
+      "label": "Academics",
+      "href": "#academics"
+    },
+    {
+      "id": "admissions",
+      "label": "Admissions",
+      "href": "#admissions"
+    },
+    {
+      "id": "beyond-classrooms",
+      "label": "Beyond Classrooms",
+      "href": "#beyond-classrooms"
+    },
+    {
+      "id": "facilities",
+      "label": "Facilities",
+      "href": "#facilities"
+    },
+    {
+      "id": "parent-corner",
+      "label": "Parent Corner",
+      "href": "#parent-corner"
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "href": "#contact"
+    },
+    {
+      "id": "enquire-now",
+      "label": "Enquire Now",
+      "href": "#admissions",
+      "isButton": true
+    }
   ],
   "hero": {
     "eyebrow": "ROOTED IN VALUES. READY FOR TOMORROW.",
@@ -96,16 +133,52 @@
     "heading": "More Than a School,\nA Place to Belong",
     "description": "Welcome to Sanatana School of Excellence. We combine techniques associated with Vedic culture with contemporary educational methodologies to prepare children for the future. Our learning environment is created to encourage exploration, creativity, curiosity and meaningful conversations with trained facilitators.",
     "ctaText": "Know More About Us",
-    "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=85",
+    "image": "/sanatana_play_home.jpg",
     "videoBadgeText": "Explore Our Campus",
     "handwrittenTag": "A Home\nAway From Home",
     "strengths": [
-      { "id": "s1", "title": "Child-Centric Approach", "iconName": "Users", "bgColor": "bg-sky-100", "iconColor": "text-sky-700" },
-      { "id": "s2", "title": "Experienced Faculty", "iconName": "UserCheck", "bgColor": "bg-pink-100", "iconColor": "text-pink-700" },
-      { "id": "s3", "title": "Modern Infrastructure", "iconName": "Building2", "bgColor": "bg-cyan-100", "iconColor": "text-cyan-700" },
-      { "id": "s4", "title": "Focus on Values & Life Skills", "iconName": "Sprout", "bgColor": "bg-emerald-100", "iconColor": "text-emerald-700" },
-      { "id": "s5", "title": "Personalised Learning", "iconName": "Sparkles", "bgColor": "bg-purple-100", "iconColor": "text-purple-700" },
-      { "id": "s6", "title": "Strong Parent Partnership", "iconName": "HeartHandshake", "bgColor": "bg-amber-100", "iconColor": "text-amber-700" }
+      {
+        "id": "s1",
+        "title": "Child-Centric Approach",
+        "iconName": "Users",
+        "bgColor": "bg-sky-100",
+        "iconColor": "text-sky-700"
+      },
+      {
+        "id": "s2",
+        "title": "Experienced Faculty",
+        "iconName": "UserCheck",
+        "bgColor": "bg-pink-100",
+        "iconColor": "text-pink-700"
+      },
+      {
+        "id": "s3",
+        "title": "Modern Infrastructure",
+        "iconName": "Building2",
+        "bgColor": "bg-cyan-100",
+        "iconColor": "text-cyan-700"
+      },
+      {
+        "id": "s4",
+        "title": "Focus on Values & Life Skills",
+        "iconName": "Sprout",
+        "bgColor": "bg-emerald-100",
+        "iconColor": "text-emerald-700"
+      },
+      {
+        "id": "s5",
+        "title": "Personalised Learning",
+        "iconName": "Sparkles",
+        "bgColor": "bg-purple-100",
+        "iconColor": "text-purple-700"
+      },
+      {
+        "id": "s6",
+        "title": "Strong Parent Partnership",
+        "iconName": "HeartHandshake",
+        "bgColor": "bg-amber-100",
+        "iconColor": "text-amber-700"
+      }
     ],
     "welcomeIntro": {
       "badgeTitle": "Welcome To Santana School",
@@ -207,12 +280,48 @@
     "description": "We provide a wide range of co-curricular activities to help students discover their passions, hone latent talents and develop essential life skills.",
     "ctaText": "Explore Student Life",
     "activities": [
-      { "id": "act1", "title": "Sports &\nPhysical Fitness", "iconName": "Activity", "bgColor": "bg-sky-100", "iconColor": "text-sky-800" },
-      { "id": "act2", "title": "Arts &\nCreativity", "iconName": "Palette", "bgColor": "bg-amber-100", "iconColor": "text-amber-800" },
-      { "id": "act3", "title": "Music &\nPerforming Arts", "iconName": "Music", "bgColor": "bg-teal-100", "iconColor": "text-teal-800" },
-      { "id": "act4", "title": "Clubs &\nLeadership", "iconName": "Users", "bgColor": "bg-emerald-100", "iconColor": "text-emerald-800" },
-      { "id": "act5", "title": "Community\nOutreach", "iconName": "Heart", "bgColor": "bg-pink-100", "iconColor": "text-pink-800" },
-      { "id": "act6", "title": "Events &\nCompetitions", "iconName": "Trophy", "bgColor": "bg-amber-100", "iconColor": "text-amber-800" }
+      {
+        "id": "act1",
+        "title": "Sports &\nPhysical Fitness",
+        "iconName": "Activity",
+        "bgColor": "bg-sky-100",
+        "iconColor": "text-sky-800"
+      },
+      {
+        "id": "act2",
+        "title": "Arts &\nCreativity",
+        "iconName": "Palette",
+        "bgColor": "bg-amber-100",
+        "iconColor": "text-amber-800"
+      },
+      {
+        "id": "act3",
+        "title": "Music &\nPerforming Arts",
+        "iconName": "Music",
+        "bgColor": "bg-teal-100",
+        "iconColor": "text-teal-800"
+      },
+      {
+        "id": "act4",
+        "title": "Clubs &\nLeadership",
+        "iconName": "Users",
+        "bgColor": "bg-emerald-100",
+        "iconColor": "text-emerald-800"
+      },
+      {
+        "id": "act5",
+        "title": "Community\nOutreach",
+        "iconName": "Heart",
+        "bgColor": "bg-pink-100",
+        "iconColor": "text-pink-800"
+      },
+      {
+        "id": "act6",
+        "title": "Events &\nCompetitions",
+        "iconName": "Trophy",
+        "bgColor": "bg-amber-100",
+        "iconColor": "text-amber-800"
+      }
     ]
   },
   "achievements": {
@@ -220,10 +329,30 @@
     "heading": "Growing Together, Achieving More",
     "description": "Our students continue to make us proud in academics, sports, arts and beyond through dedication and excellence.",
     "stats": [
-      { "id": "st1", "value": "100+", "label": "Awards Won", "iconName": "Trophy" },
-      { "id": "st2", "value": "95%", "label": "Parent Satisfaction", "iconName": "Users" },
-      { "id": "st3", "value": "1500+", "label": "Happy Students", "iconName": "GraduationCap" },
-      { "id": "st4", "value": "15+", "label": "Years of Excellence", "iconName": "Award" }
+      {
+        "id": "st1",
+        "value": "100+",
+        "label": "Awards Won",
+        "iconName": "Trophy"
+      },
+      {
+        "id": "st2",
+        "value": "95%",
+        "label": "Parent Satisfaction",
+        "iconName": "Users"
+      },
+      {
+        "id": "st3",
+        "value": "1500+",
+        "label": "Happy Students",
+        "iconName": "GraduationCap"
+      },
+      {
+        "id": "st4",
+        "value": "15+",
+        "label": "Years of Excellence",
+        "iconName": "Award"
+      }
     ]
   },
   "admissionCTA": {
@@ -352,11 +481,31 @@
       "ctaText": "Read More"
     },
     "timeline": [
-      { "year": "2014", "title": "Inception & Foundation", "description": "Sanatana was established in Maruthi Nagar, Anantapur with a focus on value-rooted early learning." },
-      { "year": "2017", "title": "Integrated Childcare & Preschool", "description": "Launched state-of-the-art integrated preschool and age-appropriate learning resources." },
-      { "year": "2019", "title": "Primary School Expansion", "description": "Expanded concept-based primary school curriculum with activity and exploratory learning." },
-      { "year": "2022", "title": "Creative Development Hub", "description": "Introduced dedicated performing arts, creative printing, and experiential learning zones." },
-      { "year": "Today", "title": "Excellence & Growth", "description": "1500+ students thriving in an environment built on care, values, and modern pedagogies." }
+      {
+        "year": "2014",
+        "title": "Inception & Foundation",
+        "description": "Sanatana was established in Maruthi Nagar, Anantapur with a focus on value-rooted early learning."
+      },
+      {
+        "year": "2017",
+        "title": "Integrated Childcare & Preschool",
+        "description": "Launched state-of-the-art integrated preschool and age-appropriate learning resources."
+      },
+      {
+        "year": "2019",
+        "title": "Primary School Expansion",
+        "description": "Expanded concept-based primary school curriculum with activity and exploratory learning."
+      },
+      {
+        "year": "2022",
+        "title": "Creative Development Hub",
+        "description": "Introduced dedicated performing arts, creative printing, and experiential learning zones."
+      },
+      {
+        "year": "Today",
+        "title": "Excellence & Growth",
+        "description": "1500+ students thriving in an environment built on care, values, and modern pedagogies."
+      }
     ],
     "campusPreview": {
       "title": "Our Campus & Environment",
@@ -364,10 +513,26 @@
       "ctaText": "Virtual Tour"
     },
     "communityMetrics": [
-      { "count": "1500+", "label": "Students", "iconName": "GraduationCap" },
-      { "count": "80+", "label": "Teachers", "iconName": "Users" },
-      { "count": "2400+", "label": "Parents", "iconName": "Heart" },
-      { "count": "3000+", "label": "Alumni", "iconName": "Award" }
+      {
+        "count": "1500+",
+        "label": "Students",
+        "iconName": "GraduationCap"
+      },
+      {
+        "count": "80+",
+        "label": "Teachers",
+        "iconName": "Users"
+      },
+      {
+        "count": "2400+",
+        "label": "Parents",
+        "iconName": "Heart"
+      },
+      {
+        "count": "3000+",
+        "label": "Alumni",
+        "iconName": "Award"
+      }
     ]
   },
   "academicsPage": {
@@ -382,11 +547,26 @@
       "description": "Concept-oriented knowledge integrated with moral values, hands-on activities, continuous inquiry, and differentiated pacing for every unique child.",
       "ctaText": "Our Curriculum",
       "pillars": [
-        { "title": "Child-Centric Learning", "iconName": "Users" },
-        { "title": "Concept-Based Mastery", "iconName": "Lightbulb" },
-        { "title": "Cultural Roots & Values", "iconName": "Heart" },
-        { "title": "Expressive Arts & Drama", "iconName": "Sparkles" },
-        { "title": "Safe & Secure Campus", "iconName": "Shield" }
+        {
+          "title": "Child-Centric Learning",
+          "iconName": "Users"
+        },
+        {
+          "title": "Concept-Based Mastery",
+          "iconName": "Lightbulb"
+        },
+        {
+          "title": "Cultural Roots & Values",
+          "iconName": "Heart"
+        },
+        {
+          "title": "Expressive Arts & Drama",
+          "iconName": "Sparkles"
+        },
+        {
+          "title": "Safe & Secure Campus",
+          "iconName": "Shield"
+        }
       ]
     },
     "stages": [
@@ -420,10 +600,26 @@
       }
     ],
     "pedagogy": [
-      { "title": "Concept Learning", "description": "Focusing on profound understanding over mere memorization through real-world applications.", "iconName": "BookOpen" },
-      { "title": "Creative Expression", "description": "Music, dance, drama, art, and printing for complete emotional and cognitive expression.", "iconName": "Palette" },
-      { "title": "Experiential Exploration", "description": "Outings, games, celebrations, and interactive contests that connect learning with nature.", "iconName": "Compass" },
-      { "title": "Communication Skills", "description": "Structured opportunities for conversation, public speaking, active listening, and collaboration.", "iconName": "MessageSquare" }
+      {
+        "title": "Concept Learning",
+        "description": "Focusing on profound understanding over mere memorization through real-world applications.",
+        "iconName": "BookOpen"
+      },
+      {
+        "title": "Creative Expression",
+        "description": "Music, dance, drama, art, and printing for complete emotional and cognitive expression.",
+        "iconName": "Palette"
+      },
+      {
+        "title": "Experiential Exploration",
+        "description": "Outings, games, celebrations, and interactive contests that connect learning with nature.",
+        "iconName": "Compass"
+      },
+      {
+        "title": "Communication Skills",
+        "description": "Structured opportunities for conversation, public speaking, active listening, and collaboration.",
+        "iconName": "MessageSquare"
+      }
     ],
     "assessmentAndCoCurricular": {
       "assessment": {
@@ -446,10 +642,30 @@
       "decorativeTag": "Nurturing\nEvery Child\nEvery Day"
     },
     "whyChooseUs": [
-      { "title": "Concept-Based Curriculum", "iconName": "BookOpen", "bgColor": "bg-amber-100", "iconColor": "text-amber-800" },
-      { "title": "Qualified & Trained Staff", "iconName": "Users", "bgColor": "bg-sky-100", "iconColor": "text-sky-800" },
-      { "title": "Stimulating Learning Environment", "iconName": "Sparkles", "bgColor": "bg-emerald-100", "iconColor": "text-emerald-800" },
-      { "title": "Integrated Preschool & Childcare", "iconName": "Heart", "bgColor": "bg-orange-100", "iconColor": "text-orange-800" }
+      {
+        "title": "Concept-Based Curriculum",
+        "iconName": "BookOpen",
+        "bgColor": "bg-amber-100",
+        "iconColor": "text-amber-800"
+      },
+      {
+        "title": "Qualified & Trained Staff",
+        "iconName": "Users",
+        "bgColor": "bg-sky-100",
+        "iconColor": "text-sky-800"
+      },
+      {
+        "title": "Stimulating Learning Environment",
+        "iconName": "Sparkles",
+        "bgColor": "bg-emerald-100",
+        "iconColor": "text-emerald-800"
+      },
+      {
+        "title": "Integrated Preschool & Childcare",
+        "iconName": "Heart",
+        "bgColor": "bg-orange-100",
+        "iconColor": "text-orange-800"
+      }
     ],
     "admissionSteps": [
       {
@@ -476,10 +692,22 @@
     "eligibility": {
       "badgeTitle": "ADMISSION ELIGIBILITY CRITERIA",
       "preSchoolTable": [
-        { "program": "Play Group", "age": "2 to 3 years" },
-        { "program": "Nursery", "age": "3 to 4 years" },
-        { "program": "L.K.G", "age": "4 to 5 years" },
-        { "program": "U.K.G", "age": "5 to 6 years" }
+        {
+          "program": "Play Group",
+          "age": "2 to 3 years"
+        },
+        {
+          "program": "Nursery",
+          "age": "3 to 4 years"
+        },
+        {
+          "program": "L.K.G",
+          "age": "4 to 5 years"
+        },
+        {
+          "program": "U.K.G",
+          "age": "5 to 6 years"
+        }
       ],
       "primarySchoolNote": "For class 1st the child must have completed 6 years of age. For class 2nd onwards the admission is based on the performance in the entrance test & also previous year performance.",
       "requiredDocumentsTitle": "DOCUMENTS TO BE SUBMITTED AT THE TIME OF ADMISSION:",
@@ -741,16 +969,40 @@
   "footer": {
     "shortDescription": "Sanatana School of Excellence — Where timeless values meet modern learning in Maruthi Nagar, Anantapur.",
     "quickLinks": [
-      { "label": "Home", "href": "#home" },
-      { "label": "About", "href": "#about" },
-      { "label": "Academics", "href": "#academics" },
-      { "label": "Admissions", "href": "#admissions" }
+      {
+        "label": "Home",
+        "href": "#home"
+      },
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Academics",
+        "href": "#academics"
+      },
+      {
+        "label": "Admissions",
+        "href": "#admissions"
+      }
     ],
     "facilitiesLinks": [
-      { "label": "Facilities", "href": "#facilities" },
-      { "label": "News & Events", "href": "#beyond-classrooms" },
-      { "label": "Parent Corner", "href": "#parent-corner" },
-      { "label": "Contact", "href": "#contact" }
+      {
+        "label": "Facilities",
+        "href": "#facilities"
+      },
+      {
+        "label": "News & Events",
+        "href": "#beyond-classrooms"
+      },
+      {
+        "label": "Parent Corner",
+        "href": "#parent-corner"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
     ],
     "contact": {
       "address": "Maruthi Nagar, Anantapur – 515004\nAndhra Pradesh, India",
