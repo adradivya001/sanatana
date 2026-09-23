@@ -6,6 +6,7 @@ import { Navbar } from '../../components/layout/Navbar';
 import { CinematicHeroSlider } from '../../components/hero/CinematicHeroSlider';
 import { SchoolHighlights } from '../../components/highlights/SchoolHighlights';
 import { AboutSchool } from '../../components/about/AboutSchool';
+import { WhySanatana } from '../../components/about/WhySanatana';
 import { WhatSetsUsApart } from '../../components/about/WhatSetsUsApart';
 import { AcademicJourney } from '../../components/academics/AcademicJourney';
 import { BeyondAcademics } from '../../components/student-life/BeyondAcademics';
@@ -39,10 +40,13 @@ export const SchoolHomeLayout: React.FC<SchoolHomeLayoutProps> = ({ schoolData }
       {/* 5. Horizontal School Feature Highlights */}
       <SchoolHighlights highlights={schoolData.highlights} />
 
-      {/* 6. Two-Column About School Section */}
+      {/* 6. Philosophy / Vedic Culture with Modern Methodologies Section */}
       <AboutSchool about={schoolData.about} />
 
-      {/* 6.5. What Sets Us Apart (Custom 3-Column Pill & Visual Showcase) */}
+      {/* 6.5. Signature "WHY SANĀTANA?" Section */}
+      {schoolData.whySanatana && <WhySanatana data={schoolData.whySanatana} />}
+
+      {/* 6.7. What Sets Us Apart Showcase */}
       <WhatSetsUsApart data={schoolData.whatSetsUsApart} />
 
       {/* 7. Academic Journey with 4 Distinct Pastel Stage Cards */}

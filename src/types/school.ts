@@ -304,6 +304,25 @@ export interface ContactPageData {
   socialMessage: string;
 }
 
+export interface WhySanatanaReason {
+  number: string;
+  title: string;
+  description: string;
+  iconName: string;
+}
+
+export interface WhySanatanaSectionData {
+  eyebrow: string;
+  heading: string;
+  mainStatement: string;
+  supportingText: string;
+  reasons: WhySanatanaReason[];
+  bottomStatement: {
+    main: string;
+    sub: string;
+  };
+}
+
 export interface SchoolData {
   id: string;
   name: string;
@@ -357,6 +376,8 @@ export interface SchoolData {
     leftPoints: string[];
     rightPoints: string[];
   };
+
+  whySanatana?: WhySanatanaSectionData;
 
   academicJourney: {
     eyebrow: string;

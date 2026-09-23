@@ -211,6 +211,48 @@
       "Convenient timings for pick-up and drop off."
     ]
   },
+  "whySanatana": {
+    "eyebrow": "MORE THAN EDUCATION",
+    "heading": "WHY SANĀTANA?",
+    "mainStatement": "Where Strong Roots Meet a Modern Education",
+    "supportingText": "At Sanātana, education is more than academic learning. We nurture curious minds, strong character and confident individuals by bringing together timeless Indian values with meaningful, modern learning experiences.",
+    "reasons": [
+      {
+        "number": "01",
+        "title": "VALUES AT THE CORE",
+        "description": "We nurture respect, integrity, discipline, compassion and responsibility as an essential part of growing up.",
+        "iconName": "Lotus"
+      },
+      {
+        "number": "02",
+        "title": "EVERY CHILD MATTERS",
+        "description": "Every child is recognised as unique, with their own interests, abilities, curiosity and way of learning.",
+        "iconName": "UserCheck"
+      },
+      {
+        "number": "03",
+        "title": "WISDOM MEETS MODERN LEARNING",
+        "description": "Vedic heritage and Indian knowledge are thoughtfully connected with contemporary teaching methods.",
+        "iconName": "BookOpen"
+      },
+      {
+        "number": "04",
+        "title": "LEARNING BEYOND BOOKS",
+        "description": "Yoga, arts, culture, nature, exploration and real-world experiences make learning meaningful beyond the classroom.",
+        "iconName": "Leaf"
+      },
+      {
+        "number": "05",
+        "title": "PREPARED FOR TOMORROW",
+        "description": "We help children become confident, curious, independent and responsible lifelong learners.",
+        "iconName": "Sun"
+      }
+    ],
+    "bottomStatement": {
+      "main": "ROOTED IN VALUES. READY FOR THE FUTURE.",
+      "sub": "A childhood shaped by knowledge, character, curiosity and culture."
+    }
+  },
   "academicJourney": {
     "eyebrow": "OUR ACADEMIC JOURNEY",
     "heading": "Every Stage. A Stronger Tomorrow.",
