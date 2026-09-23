@@ -15,12 +15,64 @@ export const AboutSchool: React.FC<AboutSchoolProps> = ({ about }) => {
     "At Sanātana, we respect each child as unique individual, bubbling with limitless potential, curious and interested in their world around them. We acknowledge children as sophisticated thinkers and communicators, adopting numerous ways to share their thoughts and feelings. We embrace our role in providing a stress-free, secure and playful environment where learning is celebrated, curiosity enhanced and conversations with trained facilitators encouraged."
   ];
 
+  const [activeBook, setActiveBook] = React.useState<number | null>(null);
+
   const books = [
-    { title: "VEDAS", subtitle: "Rooted Wisdom", width: "w-52 sm:w-56 md:w-60", color: "from-[#4A2013] to-[#2B1008]", ribbon: "#D97706" },
-    { title: "VALUES", subtitle: "Moral Compass", width: "w-48 sm:w-52 md:w-56", color: "from-[#5D2816] to-[#38160B]", ribbon: "#B45309" },
-    { title: "KNOWLEDGE", subtitle: "Curious Minds", width: "w-44 sm:w-48 md:w-52", color: "from-[#70321A] to-[#451B0D]", ribbon: "#D94F16" },
-    { title: "CHARACTER", subtitle: "Inner Strength", width: "w-40 sm:w-44 md:w-48", color: "from-[#853C1F] to-[#54210F]", ribbon: "#F59E0B" },
-    { title: "BRIGHTER TOMORROW", subtitle: "Future Readiness", width: "w-36 sm:w-40 md:w-44", color: "from-[#9E4825] to-[#632813]", ribbon: "#FBBF24" },
+    {
+      id: "vedas",
+      title: "VEDAS",
+      sanskrit: "वेद",
+      subtitle: "Rooted Wisdom",
+      desc: "Ancient inquiry, nature observation, chanting rhythms, and foundational mindfulness passed down through timeless heritage.",
+      color: "from-[#38160B] via-[#4A1E10] to-[#2B1008]",
+      accent: "#E5A93C",
+      tag: "Heritage Core",
+      bgGlow: "rgba(229,169,60,0.15)"
+    },
+    {
+      id: "values",
+      title: "VALUES",
+      sanskrit: "संस्कार",
+      subtitle: "Moral Compass",
+      desc: "Compassion, truthfulness (Satya), empathy, mutual respect, and cultural grounding for life.",
+      color: "from-[#4E1E0F] via-[#632714] to-[#38140A]",
+      accent: "#F59E0B",
+      tag: "Character",
+      bgGlow: "rgba(245,158,11,0.15)"
+    },
+    {
+      id: "knowledge",
+      title: "KNOWLEDGE",
+      sanskrit: "ज्ञानम्",
+      subtitle: "Curious Minds",
+      desc: "Concept-driven inquiry, scientific discovery, multilingual fluency, and joyful problem-solving.",
+      color: "from-[#632813] via-[#7C331A] to-[#4A1D0D]",
+      accent: "#EA580C",
+      tag: "Intellect",
+      bgGlow: "rgba(234,88,12,0.15)"
+    },
+    {
+      id: "character",
+      title: "CHARACTER",
+      sanskrit: "शीलम्",
+      subtitle: "Inner Strength",
+      desc: "Emotional resilience, self-discipline, mindful collaboration, and courageous integrity.",
+      color: "from-[#7A3218] via-[#943F20] to-[#5C2310]",
+      accent: "#D97706",
+      tag: "Integrity",
+      bgGlow: "rgba(217,119,6,0.15)"
+    },
+    {
+      id: "tomorrow",
+      title: "BRIGHTER TOMORROW",
+      sanskrit: "अभ्युदयः",
+      subtitle: "Future Readiness",
+      desc: "Adaptive leadership, modern technologies, creative agility, and readiness for a dynamic world.",
+      color: "from-[#964022] via-[#B4502C] to-[#732E16]",
+      accent: "#FBBF24",
+      tag: "Leadership",
+      bgGlow: "rgba(251,191,36,0.18)"
+    },
   ];
 
   const pillars = [
@@ -276,46 +328,118 @@ export const AboutSchool: React.FC<AboutSchoolProps> = ({ about }) => {
         
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-end pb-8 sm:pb-10 border-b border-[#E85A1A]/18">
           
-          {/* BOTTOM-LEFT: Vedic Book Stack (Grounding the heritage wisdom) */}
+          {/* BOTTOM-LEFT: Innovative 3D Interactive Vedic Book Spine Deck */}
           <motion.div
             initial={{ opacity: 0, y: 25 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.4, ease: "easeOut" }}
-            className="lg:col-span-4 flex flex-col items-start"
+            className="lg:col-span-5 flex flex-col items-start relative"
           >
-            <div className="flex items-center gap-2 mb-3">
-              <Sparkles className="w-3.5 h-3.5 text-[#D94F16]" />
-              <span className="text-[10px] sm:text-[11px] font-bold tracking-[0.2em] text-[#7A2F18] uppercase">
+            {/* Header Badge with pulsing sparkle */}
+            <div className="flex items-center gap-2 mb-3.5">
+              <span className="p-1 rounded-full bg-amber-100 text-[#D94F16]">
+                <Sparkles className="w-3.5 h-3.5 animate-pulse" />
+              </span>
+              <span className="text-[11px] font-extrabold tracking-[0.22em] text-[#7A2F18] uppercase">
                 Foundations of Wisdom
+              </span>
+              <span className="text-[9px] font-semibold bg-amber-200/50 text-[#7A2F18] px-2 py-0.5 rounded-full ml-1">
+                Interactive
               </span>
             </div>
 
-            {/* Realistic Stacked Perspective Books */}
-            <div className="flex flex-col-reverse items-start gap-1 sm:gap-1.5 pt-1">
-              {books.map((book, idx) => (
-                <motion.div
-                  key={book.title}
-                  whileHover={{ x: 6 }}
-                  transition={{ duration: 0.2 }}
-                  className={`${book.width} h-7 sm:h-8 rounded-r-md rounded-l-[2px] bg-gradient-to-r ${book.color} shadow-md flex items-center justify-between px-3 text-white border-y border-amber-900/40 relative cursor-default select-none`}
-                  style={{
-                    boxShadow: '0 4px 12px rgba(43, 16, 8, 0.22), inset 2px 0 0 rgba(255,255,255,0.15)',
-                    transform: `translateX(${idx * 3}px)`,
-                  }}
-                >
-                  {/* Spine ridge accent */}
-                  <div className="absolute left-1.5 top-0 bottom-0 w-[1.5px] bg-amber-500/30" />
-                  
-                  <span className="text-[9px] sm:text-[10px] font-bold tracking-wider uppercase font-serif pl-2 text-amber-100">
-                    {book.title}
-                  </span>
+            {/* Interactive 3D Stack Container */}
+            <div className="w-full max-w-md relative flex flex-col items-start">
+              {/* Perspective Floor Shadow */}
+              <div className="absolute -bottom-2 left-4 w-4/5 h-3 bg-[#3B170B]/20 blur-md rounded-full pointer-events-none" />
 
-                  <span className="text-[8px] sm:text-[9px] text-amber-300/80 font-mono tracking-tight">
-                    {book.subtitle}
-                  </span>
-                </motion.div>
-              ))}
+              {/* Book Deck: Stacked from base (VEDAS) to apex (BRIGHTER TOMORROW) */}
+              <div className="flex flex-col-reverse items-start gap-1.5 w-full relative z-10">
+                {books.map((book, idx) => {
+                  const isActive = activeBook === idx;
+                  return (
+                    <motion.div
+                      key={book.id}
+                      onClick={() => setActiveBook(isActive ? null : idx)}
+                      whileHover={{ 
+                        scale: 1.025, 
+                        x: 8,
+                      }}
+                      transition={{ type: "spring", stiffness: 400, damping: 25 }}
+                      className="group cursor-pointer relative w-full"
+                    >
+                      {/* Leather Book Spine */}
+                      <div
+                        className={`h-9 sm:h-10 rounded-r-xl rounded-l-[3px] bg-gradient-to-r ${book.color} flex items-center justify-between px-3.5 text-white border-y border-amber-950/60 relative overflow-hidden transition-all duration-300 select-none shadow-md ${
+                          isActive 
+                            ? 'ring-2 ring-amber-400 shadow-xl scale-[1.03] translate-x-2' 
+                            : 'hover:shadow-lg'
+                        }`}
+                        style={{
+                          width: `${100 - (4 - idx) * 4.5}%`,
+                          minWidth: '240px',
+                          boxShadow: isActive 
+                            ? '0 10px 25px rgba(56, 22, 11, 0.4), inset 3px 0 0 rgba(255,255,255,0.25)' 
+                            : '0 4px 10px rgba(56, 22, 11, 0.25), inset 2px 0 0 rgba(255,255,255,0.12)',
+                        }}
+                      >
+                        {/* Gold Foil Spine Ridges */}
+                        <div className="absolute left-1.5 top-0 bottom-0 w-[2px] bg-gradient-to-b from-amber-400/40 via-amber-200/80 to-amber-600/40" />
+                        <div className="absolute left-3 top-0 bottom-0 w-[1px] bg-amber-400/20" />
+
+                        {/* Gold Foil Shimmer on Hover */}
+                        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-in-out pointer-events-none" />
+
+                        {/* Title with Gold Emboss Effect */}
+                        <div className="flex items-center gap-2 pl-2.5 z-10">
+                          <span 
+                            className="text-[11px] sm:text-xs font-black tracking-wider uppercase font-serif text-amber-100 drop-shadow-[0_1px_1px_rgba(0,0,0,0.8)]"
+                            style={{ letterSpacing: '0.08em' }}
+                          >
+                            {book.title}
+                          </span>
+
+                          <span className="text-[10px] text-amber-300/60 font-serif hidden sm:inline">
+                            • {book.sanskrit}
+                          </span>
+                        </div>
+
+                        {/* Subtitle / Category Ribbon Badge */}
+                        <div className="flex items-center gap-1.5 z-10">
+                          <span className="text-[9px] sm:text-[10px] text-amber-300 font-medium tracking-wide">
+                            {book.subtitle}
+                          </span>
+                          <span className="w-1.5 h-1.5 rounded-full bg-amber-400 opacity-75 group-hover:scale-125 transition-transform" />
+                        </div>
+                      </div>
+
+                      {/* Expandable Wisdom Drawer */}
+                      {isActive && (
+                        <motion.div
+                          initial={{ opacity: 0, height: 0, y: -4 }}
+                          animate={{ opacity: 1, height: 'auto', y: 0 }}
+                          exit={{ opacity: 0, height: 0, y: -4 }}
+                          transition={{ duration: 0.25, ease: "easeOut" }}
+                          className="mt-1.5 p-3 sm:p-3.5 bg-gradient-to-br from-[#38160B] to-[#240B04] text-amber-50 rounded-xl border border-amber-500/30 shadow-2xl z-30 relative backdrop-blur-sm max-w-[360px]"
+                        >
+                          <div className="flex items-center justify-between mb-1.5 pb-1 border-b border-amber-500/20">
+                            <span className="text-[10px] font-bold text-amber-400 tracking-wider uppercase">
+                              {book.tag} • {book.sanskrit}
+                            </span>
+                            <span className="text-[9px] text-amber-300/80 italic font-serif">
+                              Sanātana Core Pillar
+                            </span>
+                          </div>
+                          <p className="text-[11px] sm:text-xs text-amber-100/90 leading-relaxed font-sans">
+                            {book.desc}
+                          </p>
+                        </motion.div>
+                      )}
+                    </motion.div>
+                  );
+                })}
+              </div>
             </div>
           </motion.div>
 
@@ -325,7 +449,7 @@ export const AboutSchool: React.FC<AboutSchoolProps> = ({ about }) => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.5, ease: "easeOut" }}
-            className="lg:col-span-8 w-full"
+            className="lg:col-span-7 w-full"
           >
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 relative">
               {pillars.map((pillar, idx) => {
